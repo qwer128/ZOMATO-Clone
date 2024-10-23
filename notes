@@ -1,0 +1,30 @@
+<div class="samplebox">
+            <div class="para">
+                <p>Order Online</p>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+            
+        
+
+.samplebox{
+    position: relative;
+    background: url(images/e5b8785c257af2a7f354f1addaf37e4e1647364814.webp);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: center;
+    width:500px;
+    height: 300px;
+    margin: 10px 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.para{position: absolute;
+    background-color: white;
+    bottom:0;
+    left:0;
+    right:0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
